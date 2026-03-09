@@ -1,4 +1,5 @@
 # app.py - A simple Flask application to demonstrate a Docker CI pipeline for DevOps.
+# This application will be built into a Docker image and pushed to Docker Hub as part of a CI pipeline.
 from flask import Flask
 
 app = Flask(__name__)
